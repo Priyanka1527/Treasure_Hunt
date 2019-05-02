@@ -27,7 +27,7 @@ The details of implementation including all the policies to model situational as
 The change in the reward values were noticable with the change of discount factor. We've used 0.8 in this assignment. Also, it would be good to explore the actual image modification using the results obtained from the model.
 
 ## References:
-https://www.geeksforgeeks.org/what-is-reinforcement-learning/
-https://towardsdatascience.com/reinforcement-learning-with-python-8ef0242a2fa2
-https://medium.freecodecamp.org/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc
+- https://www.geeksforgeeks.org/what-is-reinforcement-learning/
+- https://towardsdatascience.com/reinforcement-learning-with-python-8ef0242a2fa2
+- https://medium.freecodecamp.org/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc
 
