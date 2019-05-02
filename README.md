@@ -10,3 +10,14 @@
 6. Document your process and results
 7. Commit your source code, documentation and other supporting files to the git repository in GitHub
 
+## Usage of Reinforcement learning on treasure hunt:
+
+Reinforcement learning is the science of making optimal decisions. It works using the concept of agent who wants to perform a task, reward system to help the agent evaluate different scenarios, an environment where the tasks needed to be performed and different states to make transition/take an action. Hence, if we consider an user/warrior to be the agent who wants to reach to the treasure, then in each state on its path would be evaluated using rewards. The agent will achieve more reward for an obstacle free state and for certain actions avoiding opponents on its way to the goal state. The agent needs to be trained multiple times in order to be able to learn all the state-actions, dangers and rewards on its way. In other words, we need to train the model performing multiple iterations until the agent has done trying all the possible state-actions pairs. Now, finally the output will be considered in order to trace out the optimal path to find the treasure or to reach to the goal state.
+
+## Implementation of Reinforcement algorithm for treasure hunt:
+
+The details of implementation including all the policies to model situational assesments, actions and rewards have been documented in the notebook **Treasure Hunt - Reinforcement Learning.ipynb** which is self-contained. The final result showing the optimal path can be found in the notebook as well.
+
+## Observations and future work:
+
+The change in the reward values were noticable with the change of discount factor. We've used 0.8 in this assignment. Also, it would be good to explore the actual image modification using the results obtained from the model.
